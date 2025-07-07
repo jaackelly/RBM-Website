@@ -1,0 +1,70 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .btn-primary {
+    @apply bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2;
+  }
+  
+  .video-container {
+    @apply relative w-full bg-gray-100 rounded-lg overflow-hidden shadow-lg;
+    aspect-ratio: 16/9;
+  }
+  
+  .calendar-date {
+    @apply w-12 h-12 flex items-center justify-center rounded-lg border border-gray-200 text-sm font-medium cursor-pointer transition-all duration-200;
+  }
+  
+  .calendar-date-available {
+    @apply bg-blue-600 text-white hover:bg-blue-700 border-blue-600;
+  }
+  
+  .calendar-date-unavailable {
+    @apply text-gray-400 cursor-not-allowed;
+  }
+  
+  .calendar-date-current {
+    @apply bg-gray-100 text-gray-900 hover:bg-gray-200;
+  }
+}
