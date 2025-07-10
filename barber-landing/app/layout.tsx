@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'Rising Barber Mentorship',
     images: [
       {
-        url: '/images/rbmIcon.png',
+        url: 'https://jdbarber.com/images/rbmIcon.png',
         width: 1200,
         height: 630,
         alt: 'Rising Barber Mentorship Logo',
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Rising Barber Mentorship | Scale Your Business to $20k+ Per Month',
     description: 'FREE TRAINING: Learn the easiest & fastest way to scale your barber business to $20k+ per month.',
-    images: ['/images/rbmIcon.png'],
+    images: ['https://jdbarber.com/images/rbmIcon.png'],
   },
   robots: {
     index: true,
