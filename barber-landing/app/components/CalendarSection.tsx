@@ -58,16 +58,6 @@ const CalendarSection: React.FC = () => {
             style={{ minWidth: "320px", height: "700px" }}
           ></div>
         </div>
-
-        {/* Call to Action */}
-        <div className="text-center mt-8">
-          <p className="text-gray-600 mb-4">
-            Still have questions? Email us at{' '}
-            <a href="mailto:info@risingbarbermentorship.com" className="text-blue-600 hover:underline">
-              info@risingbarbermentorship.com
-            </a>
-          </p>
-        </div>
       </div>
     </section>
   )

@@ -22,7 +22,7 @@ const VideoSection: React.FC = () => {
         <div className="video-container">
           {/* Loom Video Embed */}
           <iframe 
-            src="https://www.loom.com/embed/baaf7295421540e6a5198ce0623b1faa?hide_owner=true&hide_share=true&hide_title=true&hideEmbedTopBar=true"
+            src="https://www.loom.com/embed/baaf7295421540e6a5198ce0623b1faa?hide_owner=true&hide_share=true&hide_title=true&hideEmbedTopBar=true&hide_speed=true"
             frameBorder="0"
             allowFullScreen
             className="absolute inset-0 w-full h-full"

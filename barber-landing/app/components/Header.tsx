@@ -19,7 +19,6 @@ const Header: React.FC = () => {
             className="object-contain"
           />
         </div>
-        <div className="mt-2 h-1 w-24 bg-white mx-auto"></div>
       </div>
     </header>
   )

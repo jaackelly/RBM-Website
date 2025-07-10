@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-gray-900 text-white py-12">
       <div className="container-custom">
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           {/* Brand Section */}
           <div>
             <h3 className="text-xl font-bold mb-4">RISING BARBER MENTORSHIP</h3>
@@ -31,26 +31,7 @@ const Footer: React.FC = () => {
                   Book Strategy Call
                 </a>
               </li>
-              <li>
-                <a href="mailto:info@risingbarbermentorship.com" className="text-gray-300 hover:text-white transition-colors">
-                  Contact Us
-                </a>
-              </li>
             </ul>
-          </div>
-
-          {/* Contact Info */}
-          <div>
-            <h4 className="text-lg font-semibold mb-4">Get In Touch</h4>
-            <div className="text-sm text-gray-300 space-y-2">
-              <p>
-                Email:{' '}
-                <a href="mailto:info@risingbarbermentorship.com" className="hover:text-white transition-colors">
-                  info@risingbarbermentorship.com
-                </a>
-              </p>
-              <p>Business Hours: Mon-Fri 9AM-6PM CT</p>
-            </div>
           </div>
         </div>
 
