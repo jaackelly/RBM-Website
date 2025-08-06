@@ -9,11 +9,11 @@ const Header: React.FC = () => {
       <div className="container-custom">
         <div className="flex items-center justify-center gap-4">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold tracking-wider">
-            RISING BARBER MENTORSHIP
+            THE DEALER'S PLAYBOOK
           </h1>
           <Image 
-            src="/images/rbmIcon.png"
-            alt="Rising Barber Mentorship Logo"
+            src="/images/Dealers_Playbook_Logo.png"
+            alt="The Dealer's Playbook Logo"
             width={60}
             height={60}
             className="object-contain"

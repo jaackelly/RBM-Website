@@ -5,27 +5,22 @@ import "./globals.css";
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: "Rising Barber Mentorship | Scale Your Business to $20k+ Per Month",
-  description: "FREE TRAINING: Learn the easiest & fastest way to scale your barber business to $20k+ per month. Watch our exclusive training video and book your strategy call today.",
-  keywords: "barber business, barbering training, barber mentorship, scale barber business, barber marketing, barber coaching, barber success, business growth",
-  authors: [{ name: "Rising Barber Mentorship" }],
-  creator: "Rising Barber Mentorship",
-  publisher: "Rising Barber Mentorship",
-  metadataBase: new URL('https://jdbarber.com'),
-  alternates: {
-    canonical: '/',
-  },
+  title: "The Dealer's Playbook | Multiple 6 Figures in Sales Commissions",
+  description: "Want to take home multiple 6 figures a year in sales commissions without grinding 12+ hours a day? Apply for the Dealer's Playbook and transform your sales career.",
+  keywords: "sales training, high ticket sales, sales commissions, sales coaching, sales mentorship, sales success, business growth, sales career",
+  authors: [{ name: "The Dealer's Playbook" }],
+  creator: "The Dealer's Playbook",
+  publisher: "High Ticket Dealers",
   openGraph: {
-    title: "Rising Barber Mentorship | Scale Your Business to $20k+ Per Month",
-    description: "FREE TRAINING: Learn the easiest & fastest way to scale your barber business to $20k+ per month.",
-    url: 'https://jdbarber.com',
-    siteName: 'Rising Barber Mentorship',
+    title: "The Dealer's Playbook | Multiple 6 Figures in Sales Commissions",
+    description: "Want to take home multiple 6 figures a year in sales commissions without grinding 12+ hours a day? Apply for the Dealer's Playbook.",
+    siteName: "The Dealer's Playbook",
     images: [
       {
-        url: 'https://jdbarber.com/images/rbmIcon.png',
+        url: '/images/Dealers_Playbook_Logo.png',
         width: 1200,
         height: 630,
-        alt: 'Rising Barber Mentorship Logo',
+        alt: "The Dealer's Playbook Logo",
       },
     ],
     locale: 'en_US',
@@ -33,9 +28,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Rising Barber Mentorship | Scale Your Business to $20k+ Per Month',
-    description: 'FREE TRAINING: Learn the easiest & fastest way to scale your barber business to $20k+ per month.',
-    images: ['https://jdbarber.com/images/rbmIcon.png'],
+    title: "The Dealer's Playbook | Multiple 6 Figures in Sales Commissions",
+    description: 'Want to take home multiple 6 figures a year in sales commissions without grinding 12+ hours a day?',
+    images: ['/images/Dealers_Playbook_Logo.png'],
   },
   robots: {
     index: true,
@@ -63,7 +58,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-white text-gray-900 antialiased`}>
+      <body className={`${inter.className} bg-black text-white antialiased`}>
         {children}
       </body>
     </html>

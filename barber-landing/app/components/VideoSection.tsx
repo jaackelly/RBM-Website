@@ -10,10 +10,10 @@ const VideoSection: React.FC = () => {
         <div className="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium mb-4">
           Step 1 of 2
         </div>
-        <h2 className="text-2xl md:text-3xl font-bold text-red-600 mb-4">
+        <h2 className="text-2xl md:text-3xl font-bold text-red-500 mb-4">
           Watch Video
         </h2>
-        <p className="text-gray-600 max-w-2xl mx-auto">
+        <p className="text-gray-300 max-w-2xl mx-auto">
           Discover the proven strategies that successful barbers use to scale their businesses to $10k-$20k+ per month.
         </p>
       </div>
@@ -32,7 +32,7 @@ const VideoSection: React.FC = () => {
         
         {/* Video description */}
         <div className="mt-6 text-center">
-          <p className="text-gray-700 text-lg">
+          <p className="text-gray-300 text-lg">
             In this exclusive training, you&apos;ll learn the exact system that has helped hundreds of barbers 
             transform their businesses and achieve financial freedom.
           </p>
